@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This projects demonstrates how to gain access to a web server. The most important thing that we need in this, is the target's ip address. Which, in most cases is uaually going to be static.
 <br />
 
 
@@ -14,7 +14,7 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Kali Linux</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
