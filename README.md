@@ -11,12 +11,12 @@ This projects demonstrates how to gain access to a web server. The most importan
 ## OS Used
 - <b>Kali Linux</b>
 
-## Required Installations
-
-### Virtual Box
-- **Go to the following link [Virtual Box](https://www.virtualbox.org/).**
-- **Click the download button, and it redirects you to another page to choose your OS.**
-- **Also download the extension pack.**
+## Process
+- **First launch metasploitable from your virtual box.**
+- **Login with your credentials.**
+- **The default credentials are:**
+  - **Username:** msfadmin
+  - **Password:** msfadmin
 
 <p align="center">
 <b>Run the Installer:</b>
