@@ -3,16 +3,15 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-This projects demonstrates how to gain access to a web server. The most important thing that we need in this, is the target's ip address. Which, in most cases is uaually going to be static.
+This projects demonstrates how to gain access to a web server. The most important thing that we require, is the target's ip. Which, in most cases is usually going to be static, or will not change very much.
 <br />
-
 
 <h2>Tools Used</h2>
 
 - <b>Zenmap</b> 
 - <b>Metasploitable 2</b>
 
-<h2>Environments Used </h2>
+<h2>OS Used</h2>
 
 - <b>Kali Linux</b> (21H2)
 
