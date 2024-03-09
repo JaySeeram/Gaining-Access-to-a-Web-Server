@@ -1,7 +1,5 @@
 <h1>Gaining Access to a Web Server</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 This projects demonstrates how to gain access to a web server. The most important thing that we require, is the target's ip. Which, in most cases is usually going to be static, or will not change very much.
 <br />
@@ -13,12 +11,12 @@ This projects demonstrates how to gain access to a web server. The most importan
 
 <h2>OS Used</h2>
 
-- <b>Kali Linux</b> (21H2)
+- <b>Kali Linux</b>
 
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
+<h2>Installation</h2>
+<h3>Kali Linux</h3>
+<p align="left">
+Launch the terminal: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
