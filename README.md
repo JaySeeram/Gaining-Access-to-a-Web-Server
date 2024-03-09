@@ -1,22 +1,26 @@
-<h1>Gaining Access to a Web Server</h1>
+# Gaining Access to a Web Server
 
-<h2>Description</h2>
+## Description
 This projects demonstrates how to gain access to a web server. The most important thing that we require, is the target's ip. Which, in most cases is usually going to be static, or will not change very much.
-<br />
+<br/>
 
-<h2>Tools Used</h2>
-
+## Tools Used
 - <b>Zenmap</b> 
 - <b>Metasploitable 2</b>
 
-<h2>OS Used</h2>
-
+## OS Used
 - <b>Kali Linux</b>
 
-<h2>Installation</h2>
-<h3>Kali Linux</h3>
-<p align="left">
-Launch the terminal: <br/>
+## Required Installations
+
+### Virtual Box
+- **Go to the following link [Virtual Box](https://www.virtualbox.org/).**
+- **Click the download button, and it redirects you to another page to choose your OS.**
+- **Also download the extension pack.**
+
+<p align="center">
+<b>Run the Installer:</b>
+<br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
