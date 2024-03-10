@@ -20,9 +20,7 @@ Table of contents
      * [Public](#public)
 <!--te-->
 
-Description
-=================
-
+## Description
 This projects demonstrates how to gain access to a web server. The most important thing that we require, is the target's ip. Which, in most cases is usually going to be static, or will not change very much.
 <br/>
 
