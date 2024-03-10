@@ -4,7 +4,7 @@ Table of contents
 =================
 <!--ts-->
    * [Description](#Description)
-   * [Tools Used](#ToolsUsed)
+   * [Tools Used](#Tools-Used)
       * [STDIN](#stdin)
       * [Local files](#local-files)
       * [Remote files](#remote-files)
