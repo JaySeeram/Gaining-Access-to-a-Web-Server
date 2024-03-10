@@ -22,12 +22,34 @@ This projects demonstrates how to gain access to a web server. The most importan
 <b>Enter Credentials:</b>
 <br/>
 <img src="https://imgur.com/6LgmPEV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+<br/>
+<br/>
+</p>
+
+- You won't be able to see the password while typing.
+- Once done, press enter.
+
+<p align="center">
+<b>Logged in Screen:</b>
+<br/>
+<img src="https://imgur.com/8VK0S0Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- This screen will appear once you've successfully logged in.
+- Make sure you've given the right credentials, if you fail to login.
+
+<p align="center">
+<b>Verify the IP address</b>
+<br/>
+<img src="https://imgur.com/lQUWqjB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- Type the `ifconfig` to check the ip address.
+
 Enter the number of passes: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
