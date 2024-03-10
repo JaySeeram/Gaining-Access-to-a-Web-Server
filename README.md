@@ -145,6 +145,70 @@ This projects demonstrates how to gain access to a web server. The most importan
 ## Issues
 - In some cases you might get the fllowing error message
 
+<p align="center">
+<b>Error Message:</b>
+<br/>
+<img src="https://imgur.com/3mmfTSt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- When this happens, you need to make some changes to the ssh_config file and the sshd_config file
+- Let us make the necessary changes to the ssh_config file first
+
+<p align="center">
+<b>Command to edit ssh_config file:</b>
+<br/>
+<img src="https://imgur.com/c4vJ1c9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- We use nano to edit the contents of the file.
+- Be sure to be in root user, or else you cannot add new content to the file
+
+<p align="center">
+<b>ssh_config file:</b>
+<br/>
+<img src="https://imgur.com/RTw2n8o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- This is how the contents of the file are.
+- we need to add two lines to this.
+
+<p align="center">
+<b>New ssh_config file:</b>
+<br/>
+<img src="https://imgur.com/pPTN0PH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- We add the follwing lines:
+- `HostkeyAlgorithms +ssh-rsa`
+- `PubkeyAcceptedKeyTypes +ssh-rsa`
+- We need to add the same thing to sshd_config file as well.
+
+<p align="center">
+<b>sshd_config file:</b>
+<br/>
+<img src="https://imgur.com/RmcNaUz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- This is the content of the file before adding the keys
+
+<p align="center">
+<b>sshd_config file:</b>
+<br/>
+<img src="https://imgur.com/4a7opIq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
 <!--
  ```diff
 - text in red
