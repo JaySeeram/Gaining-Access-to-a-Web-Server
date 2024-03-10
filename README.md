@@ -209,6 +209,9 @@ This projects demonstrates how to gain access to a web server. The most importan
 <br/>
 </p>
 
+- Now once the new content has been added, we do not face any issues.
+- By this we come to the end of this project.
+
 <!--
  ```diff
 - text in red
