@@ -1,5 +1,8 @@
 # Gaining Access to a Web Server
 
+[Description](https://github.com/JaySeeram/Gaining-Access-to-a-Web-Server/edit/main/README.md#description)
+[Issues](https://github.com/JaySeeram/Gaining-Access-to-a-Web-Server/edit/main/README.md#issues)
+
 ## Description
 This projects demonstrates how to gain access to a web server. The most important thing that we require, is the target's ip. Which, in most cases is usually going to be static, or will not change very much.
 <br/>
