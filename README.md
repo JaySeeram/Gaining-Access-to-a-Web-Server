@@ -19,9 +19,9 @@ This projects demonstrates how to gain access to a web server. The most importan
   - **Password:** msfadmin
 
 <p align="center">
-<b>Run the Installer:</b>
+<b>Enter Credentials:</b>
 <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/6LgmPEV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
