@@ -71,25 +71,79 @@ This projects demonstrates how to gain access to a web server. The most importan
 <br/>
 </p>
 
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Now launch the zenmap application.
+- And enter the ip address of the metasploitable server to scan for vulnerabilities
+
+<p align="center">
+<b>Zenmap Scan</b>
+<br/>
+<img src="https://imgur.com/stB7X0o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
 </p>
+
+- You can see how many ports are open.
+- This is actually a gold mine for a hacker.
+- Lets look at it in a more detailed manner by switching to the Ports/Hosts output
+
+<p align="center">
+<b>Zenmap Scan</b>
+<br/>
+<img src="https://imgur.com/FeE7OBO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- We can see that port 22 is open.
+- And it is running the ssh service.
+- Let us gain access through this.
+
+<p align="center">
+<b>Elevated privileges</b>
+<br/>
+<img src="https://imgur.com/sYSjoS9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- Wee need to be in the root user
+
+<p align="center">
+<b>Elevated privileges</b>
+<br/>
+<img src="https://imgur.com/ShtUi26.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- Now type the command `ssh msfadmin@<ipaddress>`
+- We can easily gain access because we already know the password for metasploitable
+- Just type the password and you will get access to it.
+
+<p align="center">
+<b>Elevated privileges</b>
+<br/>
+<img src="https://imgur.com/NWbYHNG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- Now we are in the web server
+- You can perform `ls` or `pwd` or another command to navigate through the files
+- We have successfully gained access to it.
+
+<p align="center">
+<b>Elevated privileges</b>
+<br/>
+<img src="https://imgur.com/n7muPBt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- You can come out of it by typing the `logout` command
+
+## Issues
+- In some cases you might get the fllowing error message
 
 <!--
  ```diff
