@@ -49,6 +49,27 @@ This projects demonstrates how to gain access to a web server. The most importan
 </p>
 
 - Type the `ifconfig` to check the ip address.
+- No3 launch kali linux from virtual box and open the terminal.
+
+<p align="center">
+<b>Ping command</b>
+<br/>
+<img src="https://imgur.com/tpKfxup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
+
+- Let's check if the server is active or not by typing `ping <ipaddress>`
+- Once we start receiving packets, its evident that the server is active.
+- You can also check by searching the ip address on your web browser
+
+<p align="center">
+<b>Metasploitable Web</b>
+<br/>
+<img src="https://imgur.com/JKJeq7q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<br/>
+</p>
 
 Enter the number of passes: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
